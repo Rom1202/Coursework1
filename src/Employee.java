@@ -1,9 +1,9 @@
 public class Employee {
-    public final Integer id;
-    public String fullName;
-    public Integer salary;
-    public Integer departmentId;
-    public   static  Integer idCounter=1;
+    private final Integer id;
+    private String fullName;
+    private Integer salary;
+    private Integer departmentId;
+    private  static  Integer idCounter=1;
 
     public Employee(String fullName, Integer salary, Integer departmentId) {
         this.id=idCounter++;
