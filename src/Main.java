@@ -12,6 +12,9 @@ public class Main {
         System.out.println();
         printEmployeesOfDepartment(2);
         System.out.println();
+        calculateTotalSalaryOfDepartment(3);
+        System.out.println();
+        printEmployeesWithSalary(3000);
 
 
     }
